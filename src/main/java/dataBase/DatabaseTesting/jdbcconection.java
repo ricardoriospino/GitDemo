@@ -31,7 +31,11 @@ public class jdbcconection {
 
 		driver.findElement(By.xpath(".//*[@id='username']")).sendKeys(rs.getString("username"));
 		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys(rs.getString("password"));
+
 		System.out.println("Good");
+
+
+		System.out.println("MALl2");
 
 		}		
 	}		
